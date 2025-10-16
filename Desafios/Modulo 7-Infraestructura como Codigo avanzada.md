@@ -259,4 +259,4 @@
             - Balance entre velocidad y control
             - Curva de aprendizaje en los equipos
 
-        Superarlos implica aplicar buenas prácticas de versionado, automatización, documentación y colaboración para aprovechar al máximo esta potente combinación de IaC + políticas + GitOps.
+        Superarlos implica aplicar buenas prácticas de versionado, automatización, documentación y colaboración para aprovechar al máximo esta potente combinación de IaC + políticas + GitOps
