@@ -1,4 +1,7 @@
-1. ¿Qué ventajas ofrece el uso de módulos en Terraform?
+# Módulo 7 - Infraestructura como Código avanzada
+## Equipo Vortex
+
+### 1. ¿Qué ventajas ofrece el uso de módulos en Terraform?
 
     El uso de módulos en Terraform ofrece varias ventajas clave que se relacionan directamente con las buenas prácticas de Infraestructura como Código avanzada, a continuación de describen:
 
@@ -23,7 +26,7 @@
     En Resumen:
         El uso de módulos en Terraform permite construir infraestructura modular, segura, reutilizable y escalable, alineada con las prácticas de GitOps, DevSecOps y automatización avanzada que un DevOps Senior debe dominar.
 
-2. ¿En qué consiste el testing en Terraform y qué herramientas se pueden usar?
+### 2. ¿En qué consiste el testing en Terraform y qué herramientas se pueden usar?
 
 
     El testing en Terraform consiste en validar que la infraestructura declarada en el código se crea y configura correctamente antes de desplegarla en entornos reales. Es una práctica fundamental dentro del enfoque de Infraestructura como Código (IaC) avanzada, ya que asegura la calidad, seguridad y estabilidad del despliegue.
@@ -56,7 +59,7 @@
     En Resumen:
         El testing en Terraform consiste en probar y validar automáticamente el código de infraestructura antes de aplicarlo, usando herramientas como Terratest e InSpec para garantizar que todo funcione correctamente y cumpla con las políticas de seguridad y calidad establecidas.
 
-3. ¿Qué es Sentinel y cómo complementa a Terraform?
+### 3. ¿Qué es Sentinel y cómo complementa a Terraform?
 
     Sentinel es un motor de políticas como código (Policy as Code) desarrollado por HashiCorp que se integra directamente con Terraform para controlar, auditar y restringir el comportamiento de la infraestructura antes de que los cambios sean aplicados.
 
@@ -87,7 +90,7 @@
     En Resumen:
         Sentinel complementa a Terraform agregando una capa de control y gobernanza, al permitir definir políticas como código que validan automáticamente los despliegues. Esto garantiza que la infraestructura sea segura, estandarizada y conforme a las reglas corporativas antes de ejecutarse.
 
-4. ¿Qué tipo de políticas se pueden definir con Sentinel?
+### 4. ¿Qué tipo de políticas se pueden definir con Sentinel?
 
     Con Sentinel, se pueden definir políticas como código (Policy as Code) que controlan cómo se crea, modifica y gestiona la infraestructura declarada en Terraform.
     Estas políticas sirven para imponer reglas técnicas, de seguridad, financieras y de cumplimiento, asegurando que cada despliegue cumpla con los estándares corporativos antes de aplicarse.
@@ -132,7 +135,7 @@
             - Operaciones
         Estas reglas se integran directamente en los flujos de Terraform, bloqueando cualquier despliegue que no las cumpla, y así fortaleciendo la gobernanza, seguridad y confiabilidad de la infraestructura como código.
 
-5. ¿Cómo se puede integrar Terraform en un flujo GitOps?
+### 5. ¿Cómo se puede integrar Terraform en un flujo GitOps?
 
     Integrar Terraform en un flujo GitOps significa gestionar toda la infraestructura como código (IaC) desde un repositorio Git, donde cada cambio en el código es la única fuente de verdad y se aplica automáticamente mediante pipelines controlados.
     Esta práctica combina los principios de Infraestructura como Código, automatización CI/CD y control de versiones para garantizar trazabilidad, consistencia y seguridad.
@@ -167,7 +170,7 @@
         Integrar Terraform en un flujo GitOps permite que la infraestructura sea declarativa, versionada, revisable y automatizada.
         Cada cambio pasa por un ciclo de revisión, validación y despliegue controlado, garantizando consistencia, trazabilidad y seguridad en toda la gestión de la infraestructura.
 
-6. ¿Qué beneficios aporta GitOps a la gestión de IaC?
+### 6. ¿Qué beneficios aporta GitOps a la gestión de IaC?
 
     El enfoque GitOps aporta múltiples beneficios a la gestión de Infraestructura como Código (IaC), ya que combina las ventajas del control de versiones de Git con la automatización y trazabilidad de los flujos DevOps.
     En esencia, GitOps convierte a Git en la fuente única de verdad para toda la infraestructura, lo que garantiza orden, seguridad y eficiencia en los despliegues.
@@ -211,7 +214,7 @@
             - Facilidad de reversión y resiliencia
         De esta forma, GitOps convierte la infraestructura en un proceso versionado, automatizado y confiable, asegurando calidad, control y eficiencia en la gestión de Infraestructura como Código.
 
-7. ¿Qué desafíos pueden surgir al combinar Terraform, Sentinel y GitOps?
+### 7. ¿Qué desafíos pueden surgir al combinar Terraform, Sentinel y GitOps?
 
     Al combinar Terraform, Sentinel y GitOps, se logra un flujo de infraestructura como código altamente automatizado, seguro y gobernado, pero también pueden aparecer desafíos técnicos y organizacionales que deben gestionarse cuidadosamente para mantener la eficiencia y la confiabilidad del proceso.
 
