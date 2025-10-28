@@ -1,4 +1,7 @@
-1. ¿Qué es Backstage y qué problemas busca resolver?
+# Módulo 8 - Platform Engineering & Internal Developer Platforms (IDP)
+## Equipo Vortex
+
+# 1. ¿Qué es Backstage y qué problemas busca resolver?
 
     Backstage es una plataforma interna de desarrollo creada por Spotify que funciona como un portal centralizado donde los equipos pueden administrar toda la información y herramientas relacionadas con sus servicios y proyectos.
     Su principal objetivo es unificar la visibilidad, estandarización y control sobre los microservicios, pipelines, documentación y recursos de infraestructura que normalmente están distribuidos en múltiples repositorios y sistemas.
@@ -20,7 +23,7 @@
     En Resumen:
         Backstage busca mejorar la productividad, la colaboración y la experiencia de los desarrolladores al centralizar la gestión técnica del ecosistema de software en una sola plataforma.
 
-2. ¿Qué es un GitOps stack y cómo se relaciona con Backstage?
+# 2. ¿Qué es un GitOps stack y cómo se relaciona con Backstage?
 
     Un GitOps stack es un conjunto de recursos versionados en Git que representan toda la configuración y el estado deseado de un entorno (por ejemplo, staging o producción).
     Estos recursos pueden incluir manifiestos de Kubernetes, configuraciones de Helm, secretos, políticas de seguridad y otros componentes que definen cómo debe funcionar una aplicación o infraestructura.
@@ -48,7 +51,7 @@
     En resumen:
         Backstage actúa como la capa visual y de experiencia del desarrollador, mientras que el GitOps stack es la capa de automatización e infraestructura que asegura que todo lo desplegado esté versionado, controlado y sincronizado correctamente.
 
-3. ¿Qué ventajas ofrece Backstage sobre un simple README o documentación estática?
+# 3. ¿Qué ventajas ofrece Backstage sobre un simple README o documentación estática?
 
     Backstage ofrece muchas más ventajas que un simple archivo README o documentación estática, ya que va más allá de informar: integra, automatiza y centraliza todo el ciclo de vida de los servicios dentro de una organización.
 
@@ -74,7 +77,7 @@
         Mientras un README solo describe un servicio, Backstage permite operarlo, monitorearlo y gestionarlo desde una misma plataforma.
         Es una herramienta dinámica que convierte la documentación en una fuente activa de control, automatización y colaboración dentro del entorno DevOps.
 
-4. ¿Cómo se integran pipelines de CI/CD con Backstage?
+# 4. ¿Cómo se integran pipelines de CI/CD con Backstage?
 
     Backstage se integra con pipelines de CI/CD para que los desarrolladores puedan controlar todo el proceso de despliegue directamente desde su interfaz, sin tener que cambiar entre herramientas externas como Jenkins, GitHub Actions o GitLab CI.
 
@@ -96,7 +99,7 @@
     En Resumen:
         La integración de Backstage con CI/CD convierte a la plataforma en un punto único de control donde los desarrolladores pueden desplegar, monitorear y documentar sus aplicaciones en un mismo lugar, acelerando los flujos DevOps y reduciendo la fricción entre desarrollo e infraestructura.
 
-5. ¿Qué papel juega la observabilidad en Backstage y cómo se visualiza?
+# 5. ¿Qué papel juega la observabilidad en Backstage y cómo se visualiza?
 
     La observabilidad en Backstage cumple un papel fundamental dentro del enfoque DevOps moderno, ya que permite a los equipos monitorear el estado operativo de sus servicios directamente desde el portal, sin necesidad de cambiar de herramientas.
 
@@ -123,7 +126,7 @@
         La observabilidad en Backstage permite a los equipos ver, entender y actuar sobre el estado de sus sistemas desde el mismo lugar donde los gestionan.
         Esto mejora la visibilidad, la eficiencia y la experiencia del desarrollador, fortaleciendo la cultura de responsabilidad compartida sobre la operación del software.
 
-6. ¿Cómo se gestiona el catálogo de servicios en Backstage y qué beneficios ofrece?
+# 6. ¿Cómo se gestiona el catálogo de servicios en Backstage y qué beneficios ofrece?
 
     En Backstage, el catálogo de servicios es el núcleo del portal interno: una base centralizada donde se registran, organizan y gestionan todos los componentes de software de la organización (microservicios, APIs, librerías, pipelines, etc.).
     Cada servicio se describe mediante un archivo de metadatos (generalmente catalog-info.yaml) que define su nombre, dueño, relaciones, documentación, repositorio y estado dentro del ecosistema.
@@ -167,7 +170,7 @@
         El catálogo de servicios de Backstage actúa como una “Wikipedia viva” del ecosistema técnico de la organización:
         "Unifica la información, da contexto y control, y convierte la complejidad distribuida en una vista clara, gestionable y colaborativa para todos los equipos de desarrollo".
 
-7. ¿Qué desafíos presenta la implementación de Backstage en una organización?
+# 7. ¿Qué desafíos presenta la implementación de Backstage en una organización?
 
     La implementación de Backstage en una organización ofrece grandes beneficios, pero también presenta desafíos técnicos, organizacionales y culturales que deben considerarse para lograr una adopción exitosa.
 
