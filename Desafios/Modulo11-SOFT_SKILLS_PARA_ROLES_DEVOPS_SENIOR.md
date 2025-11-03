@@ -1,4 +1,4 @@
-# Módulo 10 - AIOps & Incident Management
+# Módulo 11 - Soft Skills para roles DevOps Senior
 ## Equipo Vortex
 
 # 1. ¿Qué se entiende por stakeholder en un proyecto técnico?
