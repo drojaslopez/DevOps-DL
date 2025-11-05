@@ -1,7 +1,7 @@
 # Módulo 12 - DevOps
 ## Equipo Vortex
 
-1. ¿Qué objetivos cumple dividir un proyecto técnico en sprints iterativos?
+# 1. ¿Qué objetivos cumple dividir un proyecto técnico en sprints iterativos?
 
     Dividir un proyecto técnico en sprints iterativos cumple varios objetivos importantes dentro de un enfoque DevOps ágil:
 
@@ -23,7 +23,7 @@
     En Resumen:
         Dividir un proyecto técnico en sprints iterativos permite entregar valor de forma continua, mejorar la calidad del producto, y adaptarse rápidamente a los cambios, alineando el desarrollo con los objetivos del negocio y las buenas prácticas DevOps.
 
-2. ¿Cómo aplicaría GitOps para garantizar trazabilidad y control de cambios en el entorno de producción?
+# 2. ¿Cómo aplicaría GitOps para garantizar trazabilidad y control de cambios en el entorno de producción?
 
     Aplicar GitOps en un entorno de producción permite garantizar trazabilidad, control y coherencia en cada cambio que se realiza en la infraestructura o en las aplicaciones. En base al documento del módulo 12, orientado a prácticas reales de DevOps con automatización, observabilidad y control iterativo, se puede explicar así:
 
@@ -60,7 +60,7 @@
     En Resumen:
         GitOps garantiza trazabilidad y control de cambios en producción porque todo el ciclo —desde la definición hasta la ejecución— pasa por Git, con versionado, aprobación y despliegue automatizado, lo que ofrece un registro claro, seguro y auditable de cada acción.
 
-3. ¿Qué herramientas implementaría para observar el comportamiento de una solución DevOps AI-Driven en tiempo real?
+# 3. ¿Qué herramientas implementaría para observar el comportamiento de una solución DevOps AI-Driven en tiempo real?
 
     Para observar el comportamiento de una solución DevOps AI-Driven en tiempo real, se deben combinar herramientas de observabilidad, monitoreo, logging, trazabilidad y analítica predictiva, alineadas con los principios de automatización, seguridad y retroalimentación continua.
 
@@ -111,7 +111,7 @@
 
         Con estas herramientas integradas, el equipo puede visualizar, analizar y anticipar problemas en tiempo real, garantizando estabilidad, aprendizaje continuo y una operación proactiva.
 
-4. ¿Cómo manejaría la incorporación de feedback de stakeholders técnicos y no técnicos en medio del proyecto?
+# 4. ¿Cómo manejaría la incorporación de feedback de stakeholders técnicos y no técnicos en medio del proyecto?
 
     Para manejar la incorporación de feedback de stakeholders técnicos y no técnicos en medio de un proyecto DevOps, es importante combinar prácticas ágiles, comunicación clara y mejora continua, ya que la retroalimentación es una parte central de cada sprint.
 
@@ -151,7 +151,7 @@
         Para integrar feedback de stakeholders técnicos y no técnicos durante un proyecto DevOps, se debe mantener una comunicación adaptada, incluir la retroalimentación en los sprints, basar decisiones en datos, y documentar los aprendizajes.
         Así, el proyecto se mantiene alineado con los objetivos técnicos y de negocio, fomentando la colaboración y la mejora continua.
 
-5. ¿Qué estrategia usaría para presentar resultados técnicos a un comité directivo no técnico?
+# 5. ¿Qué estrategia usaría para presentar resultados técnicos a un comité directivo no técnico?
 
     Para presentar resultados técnicos a un comité directivo no técnico, la estrategia ideal combina claridad, visualización de valor y enfoque en impacto, no en detalles de implementación.
     Basado en estos principios —donde se enfatiza la comunicación efectiva entre perfiles distintos y la entrega de valor iterativo-, la presentación debería estructurarse así:
@@ -194,7 +194,7 @@
         La mejor estrategia para presentar resultados técnicos a un comité no técnico es traducir datos en valor, mostrar resultados con visualizaciones simples, y conectar lo técnico con los objetivos estratégicos de la organización.
         Así se comunica impacto, no complejidad —un principio clave en el liderazgo DevOps senior.
 
-6. ¿Cómo aseguraría que su solución sea resiliente ante fallos e incidentes inesperados?
+# 6. ¿Cómo aseguraría que su solución sea resiliente ante fallos e incidentes inesperados?
 
     Para asegurar que una solución DevOps sea resiliente ante fallos e incidentes inesperados, se deben aplicar principios de automatización, observabilidad, redundancia y respuesta proactiva, donde se busca entregar valor iterativo con foco en seguridad y confiabilidad.
 
@@ -247,7 +247,7 @@
         Una solución resiliente se logra combinando infraestructura redundante, automatización con IaC, observabilidad continua, y respuestas planificadas a incidentes.
         Estos principios garantizan que, incluso ante fallos inesperados, el sistema se mantenga disponible, recuperable y estable, cumpliendo con los estándares profesionales del rol DevOps Senior.
 
-7. ¿Qué indicadores clave (KPIs) utilizaría para evaluar el éxito de su proyecto integrador DevOps?
+# 7. ¿Qué indicadores clave (KPIs) utilizaría para evaluar el éxito de su proyecto integrador DevOps?
 
     Para evaluar el éxito de un proyecto integrador DevOps, los indicadores clave (KPIs) deben reflejar tanto el rendimiento técnico como el impacto en el negocio, alineándose con los principios de entrega iterativa, automatización, observabilidad y mejora continua.
 
